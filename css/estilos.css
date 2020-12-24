@@ -1,0 +1,416 @@
+
+body {
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Rajdhani", sans-serif;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    color: white;
+    margin: 380px 0 0 10px;
+    width: 450px;
+    height: 250px;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1198 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1198 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1198 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.4em 0.8em;
+  padding: 0;
+}
+.snip1198 a {
+  padding: 0 0.7em;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1198 a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid red;
+  border-right: 3px solid #27ae60;
+}
+.snip1198 a:hover,
+.snip1198 .current a {
+  color: #000000;
+}
+.snip1198 a:hover:before,
+.snip1198 .current a:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+#hero {
+    height: 668px;
+    background-image: url("../img/1000px.jpg");
+    /*background-color: #2f4f4f;*/
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    /*background-position-x: right;*/
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+/*.hero-imagen {
+    object-fit: cover;
+}*/
+
+h2,
+h3,
+h4 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+}
+h1 strong {
+    color: #7cfc00;
+}
+h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+h2 strong {
+    color: white;
+}
+.information-description {
+    width: 900px;
+}
+.information-description1 {
+    width: 500px;
+}
+.information-imagenContainer {
+    width: 500px;
+}
+
+
+.header {
+    background-color: #808080;
+    color: white;
+}
+
+.header a {
+    color: white;
+}
+.header img {
+    width: 40px;
+    height: 50px;
+
+}
+.information-details {
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.information-details {
+    padding: 15px 20px 15px 20px;
+    margin: 40px;
+    margin-bottom: 15px;
+    background: white;
+}
+.information-title {
+    font-size: 30px;
+}
+.company {
+    background: white;
+    padding: 30px;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure {
+    margin: 0;
+}
+.header {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+/*.menu {
+    height: inherit;
+}
+
+a:hover{ color:black; background-color:#F8F9F9 }*/
+                    
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+}
+.header a {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.company img {
+    width: 500px;
+    background-color: gray;
+    height: 300px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img {
+    vertical-align: middle;
+}
+.footer a {
+    color: white;
+}
+.footer img {
+    width: 50px;
+    height: 25px;
+}
+.information-description {
+    font-size: 20;
+}
+.information-description1 {
+    font-size: 20;
+}
+.information-details1 {
+    display: flex;
+}
+.information-details {
+    align-items: center;
+    justify-content: space-between;
+}
+/*.img-img {
+    background-color: #27ae60;
+    background-size: 300px 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}*/
+.information-imagen {
+    border-radius: 20px;
+ margin: 5px 0 0 300px;   
+}
+
+.list-experien {
+    display: flex;
+    flex-wrap: wrap;
+}
+.experi {
+    margin: 15px;
+    width: 633px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #bbbda2;
+}
+.list-experien img {
+    width: 750px;
+    height: 300px;
+   /* object-fit: cover;*/
+}
+.experi {
+    margin: 20px;
+}
+.experience-details {
+    margin: 30px 60px;
+    margin-top: -60px;
+    background-color: hsl(78, 91%, 43%);
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.experiences-description {
+    text-align: left;
+}
+.h2 {
+    margin-left: 50px;
+}
+.contacts {
+    background-color: #bbbda2;
+    color: black;
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*justify-content: center; */
+    display: flex;
+    
+}
+.social {
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+.social-link.facebook {
+    background-image: url("../img/1.png");
+}
+.social-link.instagram {
+    background-image: url("../img/2.png");
+}
+.from-contacts input {
+    border-color: gray;
+    padding: 10px 25px 10px 35px;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url("../img/correo-electronico.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.from-contacts button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+.from-contacts h2 {
+    font-family: "Tajawal", sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.container1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.container3 {
+   /* width: 600px;*/
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.container6 {
+     width: 850px;
+     margin: 0 auto;
+     display: inherit;
+     justify-content: inherit;
+     height: inherit;
+     flex-wrap: inherit;
+ }
+
+.container5 {
+     width: 950px;
+     margin: 0 auto;
+     display: inherit;
+     justify-content: inherit;
+     height: inherit;
+     flex-wrap: inherit;
+ }
+
+.container4 {
+   /* width: 1250px;*/
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.footer-enlace {
+    text-decoration: none;
+}
+.h2 {
+    color: black;
+}
+.conclusion-imagen {
+    position: right;
+}
+.conclusion img {
+    width: 350px;
+    height: 200px;
+    padding: 0 0 50px 0;
+}
+.cd {
+    padding: 1px 60px;
+    background-color: white;
+}
+#image-experience {
+ background-image: url("..//img/12.jpg");
+ background-repeat: no-repeat;
+ padding: 1px;
+background-size: 1400px 2500px;
+padding: 70px 0 50px 0;
+}
+.parallax {
+    background: white fixed no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+/*634 556*/

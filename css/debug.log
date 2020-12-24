@@ -1,0 +1,45 @@
+
+CODIGO PARA PONER UN VER MAS/VER MENOS
+
+
+
+HEAD
+
+
+<script> 
+function vermas(id){
+if(id=="mas"){
+document.getElementById("desplegar").style.display="block";   
+document.getElementById("mas").style.display="none"; 
+}
+else{
+document.getElementById("desplegar").style.display="none";
+document.getElementById("mas").style.display="inline";
+}
+}
+</script>
+
+
+
+
+
+
+BODY
+
+
+<!-- 4444
+                      <div class="col-md-4">
+                   <h2>El águila y la zorra </h2>
+                   <p>
+                    Nunca traiciones la amistad sincera, pues si lo hicieras, tarde 
+                    o temprano del cielo llegará el castigo”
+                   <a href="#" onclick="vermas('mas');" id="mas">... [leer más]</a>
+                   </p>
+                   <p id="desplegar" style="display:none;">
+                    Regresó la zorra y más le dolió el no poder vengarse, que saber de l
+                    devoró a todos los aguiluchos ante los ojos de su enemiga.
+                    <a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
+                    </p>
+                  </div>
+                  11111
+                  </div>-->
