@@ -217,3 +217,8 @@ footer {
   left: 0;
   right: 0;
 }
+header {
+    position: fixed;
+    z-index: 1040;
+    width: 100%!important;
+}
