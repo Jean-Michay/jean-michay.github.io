@@ -5,9 +5,8 @@ header {
     right: 0;
     z-index: 9;
 }
-
 h1 strong {
-    color: #7cfc00;
+    color: green;
 }
 .parallax {
     background: white fixed no-repeat 50% 50%;
