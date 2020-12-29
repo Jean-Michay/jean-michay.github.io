@@ -1,5 +1,5 @@
 header {
-	border-top: 4px solid #ff0037;
+	border-bottom: 4px solid #ff0037;
 	position: fixed;
     top: 0;
     left: 0;
@@ -20,6 +20,7 @@ h1 strong {
     color: white;
 }
 footer {
+	border-top: 4px solid #ff0037;
     background-color: black;
     color: white;
 }
