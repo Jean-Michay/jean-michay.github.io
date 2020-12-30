@@ -230,5 +230,7 @@ footer {
 	border-top: 4px solid #ff0037;
 }
 .p-p {
-	border-left: 4px solid black;
+	border-left: 4px solid white;
+	padding-left: 23px;
+}
 }
