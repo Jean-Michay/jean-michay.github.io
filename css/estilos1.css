@@ -20,7 +20,7 @@ h1 strong {
     color: white;
 }
 footer {
-	border-top: 4px solid #ff0037;
+	border-top: 6px solid #ff0037;
     background-color: black;
     color: white;
 }
@@ -177,7 +177,7 @@ footer {
 	  }
 
 .bg-light text-center text-lg-start {
-	border-top: 4px solid #ff0037;
+	border-top: 6px solid #ff0037;
 }
 .p-estilo {
 	border-left: 4px solid white;
@@ -334,6 +334,8 @@ nav input[type=checkbox]:checked + label #menu-icon:after {
 /*** MENU ***/
 /* Overlay */
 nav input:checked ~ #overlay {
+	border-right: 7px solid #ff0037;
+    border-left: 7px solid #ff0037;
     background: white;
     bottom: 0;
     left: 0;
