@@ -334,8 +334,7 @@ nav input[type=checkbox]:checked + label #menu-icon:after {
 /*** MENU ***/
 /* Overlay */
 nav input:checked ~ #overlay {
-	border-right: 7px solid #ff0037;
-    border-left: 7px solid #ff0037;
+	
     background: white;
     bottom: 0;
     left: 0;
