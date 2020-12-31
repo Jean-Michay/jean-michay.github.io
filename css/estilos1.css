@@ -382,13 +382,3 @@ nav ul#social-media > li {
     font-size: 1.5em;
     margin: 0.5em;
 }
-.facebook {
-	background-image: url("../img/facebook.png");
-	background-repeat: no-repeat;
-	width: 40px;
-	height: 40px;
-}
-.instagram {
-	background-image: url("../img/instagram.png");
-	background-repeat: no-repeat;
-}
