@@ -234,7 +234,7 @@ main .container {
 }
 
 p {
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     max-width: 40em;
 }
@@ -247,6 +247,7 @@ p {
     position: absolute !important;
     width: 1px;
 }
+
 
 
 
